@@ -139,7 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="baseclass.cpp" />
+    <ClCompile Include="classapp.cpp" />
+    <ClCompile Include="classsub2.cpp" />
+    <ClCompile Include="classsub3.cpp" />
+    <ClCompile Include="classsub4.cpp" />
+    <ClCompile Include="classsub5.cpp" />
+    <ClCompile Include="classsub6.cpp" />
     <ClCompile Include="testmeof.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="baseclass.h" />
+    <ClInclude Include="classapp.h" />
+    <ClInclude Include="classes.h" />
+    <ClInclude Include="classsub2.h" />
+    <ClInclude Include="classsub3.h" />
+    <ClInclude Include="classsub4.h" />
+    <ClInclude Include="classsub5.h" />
+    <ClInclude Include="classsub6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
